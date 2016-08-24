@@ -3,6 +3,7 @@ app-admin/rsyslog
 app-admin/sudo
 app-arch/lbzip2
 app-arch/pigz
+app-arch/rpm2targz
 app-crypt/sbsigntool
 app-crypt/shim-signed
 app-editors/nano
@@ -13,6 +14,7 @@ app-misc/tmux
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
+app-shells/bash-completion
 dev-db/mariadb
 dev-lang/php
 dev-vcs/git

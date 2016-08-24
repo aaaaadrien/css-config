@@ -5,7 +5,7 @@ path=`dirname $0`
 cd "$path"
 
 # On défini les variables
-#gitrepo="git@github.com:aaaaadrien/css-config.git"
+#gitrepo="git@github.com:aaaaadrien/cld-config.git"
 package="etc/portage/package."
 jour=$(date +"%d-%m-%Y")
 heure=$(date +"%H:%M:%S")
@@ -42,6 +42,19 @@ then
 	fi
 fi
 
+
+chemin="etc/calculate/" 
+if [ -f "/$chemin/calculate.env" ]
+then
+        echo "On sauvegarde les préférences du système calculate..." 
+	if [ -d $chemin ]
+	then
+		cp "/$chemin/calculate.env" "$chemin/calculate.env"
+	else
+		mkdir -p "$chemin"
+		cp "/$chemin/calculate.env" "$chemin/calculate.env"
+	fi
+fi
 
 git add *
 git commit -m "Mise à jour de la configutaion le $jour à $heure"
