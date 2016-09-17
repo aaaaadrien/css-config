@@ -61,6 +61,6 @@ sys-libs/ncurses
 sys-process/htop
 sys-process/nmon
 sys-process/vixie-cron
-www-apps/owncloud
+www-apps/nextcloud
 www-client/links
 www-servers/apache

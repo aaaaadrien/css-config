@@ -1,4 +1,14 @@
+# nmon
 sys-process/nmon
-www-apps/owncloud
+
+# owncloud
+#www-apps/owncloud
+
+# zabbix
 <net-analyzer/zabbix-2.2.99
+
+# glances
 sys-process/glances
+
+# nextcloud
+www-apps/nextcloud
