@@ -1,8 +1,3 @@
-#------------------------------------------------------------------------------
-# Modified Calculate-core 3.4.7.19
-# Processed template files:
-# /var/lib/layman/distros/profiles/templates/3.4/6_ac_update_sync/world/update/201-300/266
-#------------------------------------------------------------------------------
 app-admin/logrotate
 app-admin/rsyslog
 app-admin/sudo
