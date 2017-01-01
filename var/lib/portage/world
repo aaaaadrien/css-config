@@ -1,3 +1,8 @@
+#------------------------------------------------------------------------------
+# Modified Calculate-core 3.4.7.19
+# Processed template files:
+# /var/lib/layman/distros/profiles/templates/3.4/6_ac_update_sync/world/update/201-300/266
+#------------------------------------------------------------------------------
 app-admin/logrotate
 app-admin/rsyslog
 app-admin/sudo
@@ -15,15 +20,17 @@ app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
 app-shells/bash-completion
+app-text/wgetpaste
 dev-db/mariadb
 dev-lang/php
+dev-perl/Switch
 dev-vcs/git
 mail-mta/postfix
 media-fonts/terminus-font
 media-gfx/gfxboot-themes-calculate
 media-gfx/grub-splashes-calculate
-media-gfx/syslinux-themes-calculate
 net-analyzer/fail2ban
+net-analyzer/iftop
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-analyzer/zabbix
@@ -58,7 +65,9 @@ sys-fs/reiserfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
 sys-libs/ncurses
+sys-process/glances
 sys-process/htop
+sys-process/iotop
 sys-process/nmon
 sys-process/vixie-cron
 www-apps/nextcloud
